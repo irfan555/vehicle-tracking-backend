@@ -1,0 +1,10 @@
+{
+    "name": "save-location",
+    "version": "1.0.0",
+    "description": "Save vehicle location to MongoDB",
+    "main": "index.js",
+    "dependencies": {
+      "mongodb": "^4.1.0"
+    }
+  }
+  
