@@ -1,6 +1,7 @@
 const { MongoClient } = require('mongodb');
+require('dotenv').config();
 
-const uri = 'mongodb+srv://mongo-user:irfan589@irf-cluster.ztkdkcc.mongodb.net/?retryWrites=true&w=majority&appName=irf-cluster'; // Replace with your MongoDB connection string
+const uri = process.env.MONGODB_URI;
 let client;
 
 async function connectToDatabase() {
